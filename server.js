@@ -8,7 +8,7 @@ const app = express();
 const studentRoutes=require('./api/routes/students');
 const BDCRoutes=require('./api/routes/BDC');
 
-mongoose.connect('mongodb+srv://dhruvix:'+'dhruva2412'+'@mongonss-qoa8m.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://dhruvix:'+'db_password'+'@mongonss-qoa8m.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
